@@ -10,6 +10,7 @@ interface toDoListProps {
 const ToDoList = observer(withRouter((toDoListProps) => {
     return (
         <ul>
+            {/* POR ARREGLAR 
             {store.fines.map((elem: any, index: number) =>
                     <li key={elem}
                         // onClick={() => {
@@ -23,6 +24,7 @@ const ToDoList = observer(withRouter((toDoListProps) => {
                         <p>{elem}</p>
                     </li>
                 )}
+                */}
         </ul>
     )
 }));
